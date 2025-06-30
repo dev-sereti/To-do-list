@@ -20,4 +20,9 @@ function addTask(text){
 const li=document.createElement("li");
 li.textContent=text;
 
+//Toogle when class clicked.
+li.addEventListener('click',()=>{
+    li.classList.toggle('done');
+});
+
 }
