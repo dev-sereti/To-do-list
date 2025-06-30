@@ -14,3 +14,10 @@ form.addEventListener('submit', function(event) {
     }           
 });
 
+//Function to add task
+
+function addTask(text){
+const li=document.createElement("li");
+li.textContent=text;
+
+}
