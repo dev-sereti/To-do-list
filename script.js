@@ -5,5 +5,12 @@ const list = document.getElementById('todo-list');
 
 // Function to add a new todo item
 form.addEventListener('submit', function(event) {
-    event.preventDefault
-}
+    event.preventDefault; // Prevent the default form submission behavior
+
+    const taskText= input.value.trim();
+    if (taskText === '') {
+        alert('Please enter a task.');
+        return;
+    }           
+});
+
