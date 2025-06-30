@@ -30,4 +30,18 @@
     gap: 10px;
     margin-bottom: 20px;
   }
-  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2b8a3e;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
