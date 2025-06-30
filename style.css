@@ -44,4 +44,27 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  button:hover {
+    background-color: #246d31;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li.done {
+    text-decoration: line-through;
+    color: gray;
+  }
 
